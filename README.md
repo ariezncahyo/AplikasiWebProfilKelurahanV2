@@ -1,4 +1,4 @@
-#Aplikasi Web Profil Kelurahan V2 (PHP, MySQL)
+#Aplikasi Web Profil Kelurahan V2 (PHP, MySQL, CMS Lokomedia)
 Login pengguna:
 
 Administrator:
