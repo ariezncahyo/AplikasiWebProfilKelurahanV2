@@ -1,0 +1,17 @@
+RewriteEngine on
+
+RewriteRule ^home$ media.php?module=home [L]
+RewriteRule ^berita-(.*)\.html$ media.php?module=detailberita&id=$1 [L]
+RewriteRule ^kategori-(.*)\.html$ media.php?module=detailkategori&id=$1 [L]
+RewriteRule ^agenda-(.*)\.html$ media.php?module=detailagenda&id=$1 [L]
+RewriteRule ^hasil-pencarian\.html$ media.php?module=hasilcari&id=$1 [L]
+RewriteRule ^indeks-berita\.html$ media.php?module=indeksberita&id=$1 [L]
+RewriteRule ^hasil-poling\.html$ media.php?module=hasilpoling&id=$1 [L]
+RewriteRule ^semua-berita\.html$ media.php?module=semuaberita&id=$1 [L]
+RewriteRule ^semua-agenda\.html$ media.php?module=semuaagenda&id=$1 [L]
+RewriteRule ^semua-download\.html$ media.php?module=semuadownload&id=$1 [L]
+RewriteRule ^profil-kami\.html$ media.php?module=profilkami&id=$1 [L]
+RewriteRule ^hubungi-kami\.html$ media.php?module=hubungikami&id=$1 [L]
+RewriteRule ^hubungi-aksi\.html$ media.php?module=hubungiaksi&id=$1 [L]
+RewriteRule ^semua-potensi\.html$ media.php?module=semuapotensi&id=$1 [L]
+RewriteRule ^potensi-(.*)\.html$ media.php?module=detailpotensi&id=$1 [L]
